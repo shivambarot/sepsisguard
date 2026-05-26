@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"C:\\\\Users\\\\barot\\\\OneDrive\\\\Desktop\\\\code\\\\project\\\\config.env.example\" \"C:\\\\Users\\\\barot\\\\OneDrive\\\\Desktop\\\\code\\\\project\\\\.env\")",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\barot\\\\OneDrive\\\\Desktop\\\\code\\\\project\\\\config.env.example\" \"C:\\\\Users\\\\barot\\\\OneDrive\\\\Desktop\\\\code\\\\project\\\\.env\" -Force)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python \"C:\\\\Users\\\\barot\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\b47003e3-d1ce-4a01-a88f-064284ed2c55\\\\6fd85734-21a3-4726-b86d-bd1b12b5e826\\\\skills\\\\pptx\\\\scripts\\\\office\\\\soffice.py\" --headless --convert-to pdf \"C:\\\\Users\\\\barot\\\\OneDrive\\\\Desktop\\\\code\\\\project\\\\SepsisGuard_Hackathon.pptx\")",
+      "Bash(ls \"C:\\\\Users\\\\barot\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\b47003e3-d1ce-4a01-a88f-064284ed2c55\\\\6fd85734-21a3-4726-b86d-bd1b12b5e826\\\\skills\\\\pptx\\\\scripts\\\\office\\\\\")",
+      "PowerShell($env:PATH = $env:PATH + \";C:\\\\Program Files\\\\GitHub CLI\" ; gh --version 2>&1)"
+    ]
+  }
+}
